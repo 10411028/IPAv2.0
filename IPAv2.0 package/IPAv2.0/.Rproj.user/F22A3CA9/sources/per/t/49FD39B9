@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564054074125.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4120384526",
+    "id" : "49FD39B9",
+    "lastKnownWriteTime" : 1564055051,
+    "last_content_update" : 1564055051268,
+    "path" : "~/IPAv2.0/R/computing_priors.R",
+    "project_path" : "R/computing_priors.R",
+    "properties" : {
+        "cursorPosition" : "14,34",
+        "scrollLine" : "3"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

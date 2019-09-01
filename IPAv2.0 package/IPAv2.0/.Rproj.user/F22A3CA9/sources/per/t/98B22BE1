@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564056420122.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1220722771",
+    "id" : "98B22BE1",
+    "lastKnownWriteTime" : 1564057072,
+    "last_content_update" : 1564057072547,
+    "path" : "~/IPAv2.0/R/create_COV_matrix.R",
+    "project_path" : "R/create_COV_matrix.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

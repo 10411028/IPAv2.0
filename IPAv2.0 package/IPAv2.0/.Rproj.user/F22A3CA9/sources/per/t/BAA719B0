@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564056061146.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4214826718",
+    "id" : "BAA719B0",
+    "lastKnownWriteTime" : 1564056633,
+    "last_content_update" : 1564056633419,
+    "path" : "~/IPAv2.0/R/updateDB.R",
+    "project_path" : "R/updateDB.R",
+    "properties" : {
+        "cursorPosition" : "5,132",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

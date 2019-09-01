@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564057086358.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "683824855",
+    "id" : "776A3779",
+    "lastKnownWriteTime" : 1564058176,
+    "last_content_update" : 1564058176030,
+    "path" : "~/IPAv2.0/R/build_model.R",
+    "project_path" : "R/build_model.R",
+    "properties" : {
+        "cursorPosition" : "31,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -4,9 +4,9 @@
 \alias{compute.Priors}
 \title{Computing prior probabilities associated with putative annotations}
 \usage{
-\method{compute}{Priors}(Hits, dataset, pk = rep(1,
-  nrow(Hits$all.formulas)), ppm, cov_matrix, sd_LogRT, unknown.RT = NA,
-  unknown.ppm = NA, v = T, IT = 120, pr.lim = 1e-05)
+compute.Priors(Hits, dataset, pk = rep(1, nrow(Hits$all.formulas)), ppm,
+  cov_matrix, sd_LogRT, unknown.RT = NA, unknown.ppm = NA, v = T,
+  IT = 120, pr.lim = 1e-05)
 }
 \arguments{
 \item{Hits}{The output of find.hits() function}

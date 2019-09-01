@@ -15,10 +15,20 @@
 #' @export
 
 
-"updateDB" <- function(model, data){
+"updateDB" <- function(model, DB){
+  data <- data.frame(DB[,15:21])
+  data[] <- lapply(data, function(x) as.numeric(as.character(x)))
+  
   LogRT <- predict(model, data)
   LogRT <- data.frame(LogRT)
-  final_data <- cbind(data, LogRT)
+  
+  new_DB <- data.frame(DB[,1:14])
+  names <- colnames(new_DB)
+  names[1] <- "KEGG.id"
+  new_DB[10] <- LogRT
+  colnames(new_DB) <- names
+  new_DB <- cbind(new_DB, data.frame(DB[,15:21]))
+  new_DB <- as.matrix(new_DB)
 
-  return(final_data)
+  return(new_DB)
 }

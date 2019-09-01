@@ -22,11 +22,7 @@
   sd_LogRT <- sd(model$residual)
   cov_matrix <- create_COV_matrix(sd_LogRT, cov_data)
   new_DB <- updateDB(model, DB)
-  new_data <- Data[,1:14]
-  names <- colnames(new_data)
-  names[1] <- "KEGG.id"
-  colnames(new_data) <- names
-  new_data <- cbind(new_data, new_DB)
-  out <- list("cov_matrix" = cov_matrix, "updated_DB" = new_data, "sd_LogRT" = sd_LogRT)
+  out <- list("cov_matrix" = cov_matrix, "updated_DB" = new_DB, "sd_LogRT" = sd_LogRT)
+
   return(out)
 }

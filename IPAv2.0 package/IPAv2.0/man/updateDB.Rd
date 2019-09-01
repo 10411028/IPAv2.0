@@ -4,7 +4,7 @@
 \alias{updateDB}
 \title{Update the database with the new predicted LogRT}
 \usage{
-updateDB(model, data)
+updateDB(model, DB)
 }
 \arguments{
 \item{model}{A trained prediction model}
